@@ -1,0 +1,12 @@
+.List {
+    min-width: 220px;
+}
+
+.List:not(:first-of-type) {
+    margin-left: 8px;
+}
+
+.List-header h2,
+.List-cards h3 {
+    margin: 0;
+}
